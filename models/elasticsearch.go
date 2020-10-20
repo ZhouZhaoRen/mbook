@@ -3,9 +3,9 @@ package models
 import (
 	"fmt"
 	"github.com/astaxie/beego/orm"
+	"mbook/utils"
 	"strconv"
 	"strings"
-	"mbook/utils"
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/astaxie/beego"
@@ -57,7 +57,7 @@ func ElasticSearchDocument(kw string, pageSize, page int, bookId ...int) ([]int,
 	var ids []int
 	count := 0
 
-	if page > 0 {
+	if page > 0 {  // 从第0页开始
 		page = page - 1
 	} else {
 		page = 0

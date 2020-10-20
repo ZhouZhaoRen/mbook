@@ -21,7 +21,7 @@ func (c *ElasticsearchController) Result() {
 	//获取关键词
 	wd := c.GetString("wd")
 	if "" == wd {
-		c.Redirect(beego.URLFor("ElasticsearchController.Search"), 302)
+		c.Redirect(beego.URLFor("ElasticsearchController.Search"), 302) // 如果输入为空，则跳到搜索页面
 	}
 	c.Data["Wd"] = wd
 
@@ -39,7 +39,7 @@ func (c *ElasticsearchController) Result() {
 	//开始搜索
 	now := time.Now()
 	if "doc" == tab {
-		ids, count, err := models.ElasticSearchDocument(wd, size, page)
+		ids, count, err := models.ElasticSearchDocument(wd, size, page) // 先从es中查出对应的文档ID，然后根据这些id去查找文档的详细信息
 		c.Data["totalRows"] = count
 		if nil == err && len(ids) > 0 {
 			c.Data["Docs"], _ = models.NewDocumentSearch().GetDocsById(ids)

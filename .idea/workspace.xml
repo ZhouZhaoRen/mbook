@@ -30,7 +30,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LeetCode01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/controllers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -39,16 +39,32 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\GolandProject\mbook\models" />
-      <recent name="F:\GolandProject\mbook\utils" />
-      <recent name="F:\GolandProject\mbook\routers" />
-      <recent name="F:\GolandProject\mbook\controllers" />
-      <recent name="F:\GolandProject\mbook\views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\GolandProject\mbook\utils\store" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GolandProject\mbook\controllers" />
+      <recent name="F:\GolandProject\mbook\models" />
+      <recent name="F:\GolandProject\mbook\utils" />
+      <recent name="F:\GolandProject\mbook\routers" />
+      <recent name="F:\GolandProject\mbook\views" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build mbook/tests/test01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="mbook" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/tests/test01/main.go" />
+      <package value="mbook/tests/test01" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build mbook/tests/test01" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,10 +79,26 @@
     </state>
     <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603112144391" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602829308958" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602343392223">
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1603115067430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602343392223" />
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603115067430" />
+    <state width="1877" height="275" key="GridCell.Tab.0.center" timestamp="1603115067430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603115067430" />
+    <state width="1877" height="275" key="GridCell.Tab.0.left" timestamp="1603115067430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603115067430" />
+    <state width="1877" height="275" key="GridCell.Tab.0.right" timestamp="1603115067430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603115067430" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603159000359">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603159000359" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
