@@ -44,8 +44,8 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\GolandProject\mbook\controllers" />
-      <recent name="F:\GolandProject\mbook\models" />
       <recent name="F:\GolandProject\mbook\utils" />
+      <recent name="F:\GolandProject\mbook\models" />
       <recent name="F:\GolandProject\mbook\routers" />
       <recent name="F:\GolandProject\mbook\views" />
     </key>
@@ -95,9 +95,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603115067430" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603159000359">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603265378824">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603265378824" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603159000359" />
   </component>
   <component name="XDebuggerManager">
